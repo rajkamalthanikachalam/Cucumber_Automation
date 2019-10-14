@@ -1,9 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
-<testcase classname="Feature of Free CRM Login Page" name="scenario is to automate the Free CRM Login Page" time="0">
-<system-out><![CDATA[Given Check user able to access FreeCRM Site................................skipped
-When Check title page.......................................................skipped
-Then Enter login credentials "008rajkamal" as UserName and "Feb$2018@" as Password.skipped
-Then Check user landed in home page.........................................skipped
-]]></system-out>
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0">
+<testcase classname="Feature of Free CRM Login Page" name="Login" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[When ValidCredentials.......................................................undefined
+Then Access Home Page.......................................................undefined
+Then Navigate to Contact Details............................................undefined
+And Add Contacts............................................................undefined
+Then Check the Contacts.....................................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Feature of Free CRM Login Page" name="Login2" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[When ValidCredentials.......................................................undefined
+Then Access Home Page.......................................................undefined
+Then Navigate to Contact Details............................................undefined
+And Add Contacts............................................................undefined
+Then Check the Contacts.....................................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Feature of Free CRM Login Page" name="Login3" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[When ValidCredentials.......................................................undefined
+Then Access Home Page.......................................................undefined
+Then Navigate to Contact Details............................................undefined
+And Add Contacts............................................................undefined
+Then Check the Contacts.....................................................undefined
+]]></failure>
 </testcase>
 </testsuite>

@@ -1,7 +1,7 @@
 Feature: Feature of Free CRM Login Page 
 
-#In DataTable, we can achieve the passing value without Examples and Scenario Outline
-#with few changes in Feature and Step Definition file 
+# In DataTable, we can achieve the passing value without Examples and Scenario Outline
+# with few changes in Feature and Step Definition file 
 # In Feature File, just type data within the pipe symbol under the particular line, which means that data is applicable to that method alone
 # In Step Definition, we have to call DataTable(call raw()) , which return List<List<String> and call by index value
 # Output is not readable when compare to examples - Scenario Outline
